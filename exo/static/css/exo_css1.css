@@ -11,36 +11,51 @@
     padding: 15px 3em;
 }
 
+.tete {
+    display: flex;
+    justify-content: center;
+}
+
 .btn {
     background-color: #17bef6;
     padding: 5px;
     color: #fff;
     text-align: center;
     border: none;
-    width: 80px;
+   /* width: 80px;*/
 }
 
-li {
+h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.tete-input {
+    padding: 20px;
+    font-size: large;
+    height: 10px;
+    width: 90%;
+    margin-right: 0.5em;
+    text-align: center;
+    font-style: italic;
+
+}
+
+.add-btn {
+    /*padding: 20px;*/
+    width: 10%;
+    float: right;
+    margin-right: 0;
+    right: 0;
+} 
+
+/*Liste du milieu */
+
+/*li {
     list-style-type: none;
     width: 100%;
     background-color: #cfe8f0;
     border: 1.5px solid #00000050;
     
     
-}
-h1 {
-    text-align: center;
-    text-transform: uppercase;
-}
-
-.tete-element {
-    padding: 5px;
-    font-size: large;
-    height: 10px;
-    
-}
-
-
-.add-btn {
-    width: 10px;
-} 
+}*/
