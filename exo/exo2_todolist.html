@@ -19,121 +19,27 @@
     
             <div class="list">
                 <ul>
+                    <li class="list-element"><input class="li-list" type="checkbox" name="" id=""  value=""><span class="todo-text">Read the book</span><input type="button" class="btn-update btn" value="update"><input class="btn-delete btn" type="button" value="del"></li>\
+                    <li class="list-element"><input class="li-list" checked type="checkbox" name="" id=""  value=""><span class="todo-text">Read the book</span><input type="button" class="btn-update btn" value="update"><input class="btn-delete btn" type="button" value="del"></li>
+                    <li class="list-element"><input class="li-list" checked type="checkbox" name="" id=""  value=""><span class="todo-text">Read the book</span><input type="button" class="btn-update btn" value="update"><input class="btn-delete btn" type="button" value="del"></li>
+                    <li class="list-element"><input class="li-list"  checked type="checkbox" name="" id=""  value=""><span class="todo-text">Read the book</span><input type="button" class="btn-update btn" value="update"><input class="btn-delete btn" type="button" value="del"></li>
                     <li class="list-element"><input class="li-list" type="checkbox" name="" id=""  value=""><span class="todo-text">Read the book</span><input type="button" class="btn-update btn" value="update"><input class="btn-delete btn" type="button" value="del"></li>
-                    <li class="list-element"><input class="li-list" type="checkbox" name="" id=""  value=""><span>Read the book</span><input type="button" value="update"><input type="button" value="del"></li>
+                   
                 </ul>
             </div>
     
             <div class="pied">
-                <table id="table">
-                    <tbody></tbody>
-               </table>
-               <input type="submit" value="" value = "Remove checked">
+               <div class="pied-element">
+                   <div class="progress">
+                       <div class="progress-bar">3 task of 5 done</div>
+                   </div>
+               </div>
+               <input class="rm-checked btn"  type="submit" value = "Remove checked x">
             </div>
         </div>
 
     </div>
-    
+
+
 </body>
 </html>
-
-
-<style>
-    
-#body {
-    background-color: #17bef6;
-}
-.container {
-    margin: 50px auto;
-    border: 2px solid #fff;
-    width: 50em;
-    height: 80%;
-    background-color: #fff;
-    /* text-align: center; */
-    padding: 15px 3em;
-}
-
-.btn {
-    background-color: #17bef6;
-    padding: 5px;
-    color: #fff;
-    text-align: center;
-    border: none;
-    width: 80px;
-}
-
-
-h1 {
-    text-align: center;
-    text-transform: uppercase;
-}
-.tete, .list {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    height: 30px;
-}
-
-.tete-element {
-    padding: 5px;
-    font-size: large;
-    height: 100%;
-    width: 90%;
-    text-align: center;
-    font-style: italic;
-    border: 1px solid #17bef6;
-    
-}
-
-
-.add-btn {
-    width: 10%;
-    text-align: center;
-    margin-left: 0.5em;
-}
-
-
-/*Liste Element    */
-.list {
-    width: 100%;
-    margin: auto;
-
-}
-
-ul {
-    margin: 1em 0;
-    padding: 0;
-    width: 100%;
-}
-
-ul li {
-    list-style-type: none;
-    width: 100%;
-    background-color: #9ecde430;
-    border: 1.5px solid #00000050;
-    margin: 0;
-    padding: 0.3em;
-}
-.todo-text{
-    background-color: #fff;
-    color: #17bef6;
-    width: 70%;
-}
-
-.li-list {
-    width: 10%;
-}
-
-.todo-text {
-    width: 70%;
-}
-
-.btn-delete {
-    width: 10%;
-    margin-left: 1px;
-}
-.btn-update {
-    margin-left: 1px;
-    width: 10%;
-}
-</style>
